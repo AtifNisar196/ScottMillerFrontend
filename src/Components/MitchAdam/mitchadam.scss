@@ -1,0 +1,73 @@
+.mitchadam-wrapper {
+  padding: 100px 0px;
+  .mitchadam-head {
+    h4 {
+      color: #000;
+      font-family: "Creato Display";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    h2 {
+      color: #076350;
+      font-family: "Fahkwang";
+      font-size: 62px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .mitchadam-content {
+    p {
+      color: #000;
+      font-family: "Creato Display";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 179.4%; /* 32.292px */
+    }
+    .btn-wrap {
+      a {
+        color: #076350;
+        font-family: "Creato Display";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        &::before {
+          content: "";
+          background: #076350;
+          height: 2px;
+          width: 0px;
+          position: absolute;
+          bottom: 15px;
+          left: 0;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          padding-left: 40px;
+          &::before {
+            width: 35px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .mitchadam-wrapper {
+    .mitchadam-head {
+      h4{
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 48px;
+      }
+
+    }
+  }
+}

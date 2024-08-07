@@ -1,0 +1,164 @@
+.bestsellingbooks-wrapper {
+  background: linear-gradient(81deg, #0c3855 0.74%, #184461 99.47%);
+  padding: 100px 0px;
+  .left-side-wrapper {
+    .bestselling-books {
+      h4 {
+        color: #c9dce9;
+        font-family: "Creato Display";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      h2 {
+        color: #fff;
+        font-family: "Fahkwang";
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      p {
+        color: #fff;
+        font-family: "Creato Display";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 179.4%; /* 32.292px */
+        &.middle-para {
+          color: #c9dbe9;
+          font-family: "Creato Display";
+          font-size: 20px;
+          font-style: italic;
+          font-weight: 700;
+          line-height: 179.4%; /* 35.88px */
+        }
+      }
+    }
+  }
+  .book-selling-wrapper {
+    a{
+      text-decoration: none;
+    }
+    .book-wrapper {
+      .book-content {
+        text-align: center;
+        margin-top: 10px;
+        h4 {
+          color: #fff;
+          text-align: center;
+          font-family: "Creato Display";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+        .book-star-wrapper {
+          .star {
+            color: #f9c00c;
+          }
+        }
+        p {
+          color: #fff;
+          text-align: center;
+          font-family: "Creato Display";
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: normal;
+        }
+      }
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100px;
+      height: 40px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      z-index: 10;
+      cursor: pointer;
+    }
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+      display: none;
+    }
+    .swiper-button-prev {
+      left: 20px;
+    }
+
+    .swiper-button-next {
+      left: 150px;
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .bestsellingbooks-wrapper {
+    padding: 50px 0px;
+    .left-side-wrapper {
+      .bestselling-books {
+        h2 {
+          font-size: 48px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+    .book-selling-wrapper {
+      .book-wrapper {
+        .book-img {
+          text-align: center;
+        }
+        .book-content {
+          h4 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .bestsellingbooks-wrapper {
+    padding: 50px 0px;
+    .left-side-wrapper {
+      .bestselling-books {
+        h2 {
+          font-size: 48px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+    .book-selling-wrapper {
+      .book-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .book-img {
+          text-align: center;
+          width: 180px;
+          height: auto;
+        }
+        .book-content {
+          h4 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.subscribeform-wrapper {
+    padding: 100px 0px;
+    background: linear-gradient(81deg, #0c3855c2 0.74%, #184461c2 99.47%);
+
+    .subscribeform-head {
+        h2 {
+            color: #fff;
+            text-align: center;
+            font-family: "Fahkwang";
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .subscribeform-content {
+        p {
+            color: #c9dbe9;
+            text-align: center;
+            font-family: "Creato Display";
+            font-size: 20px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 179.4%;
+            /* 35.88px */
+        }
+    }
+
+    .form-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form {
+            display: flex;
+            input {
+                padding: 9.5px 20px;
+                width: 70%;
+                border: none;
+                outline: none;
+                border-radius: 11px 0px 0px 11px;
+                color: #d0d0d0;
+                border: none;
+                background: linear-gradient(81deg, #0c3855 0.74%, #184461 99.47%);
+
+                &::placeholder {
+                    color: #d0d0d0;
+                    font-family: "Creato Display";
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+
+                    line-height: 179.4%;
+                    /* 32.292px */
+                }
+            }
+
+            button {
+                padding: 11px 20px;
+                border: none;
+                border-radius: 0px 11px 11px 0px;
+                background: linear-gradient(81deg, #0c3855 0.74%, #184461 99.47%);
+                color: #fff;
+                font-family: "Creato Display";
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    background: #fff;
+                    color: #184461;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1400px) {
+    .subscribeform-wrapper {
+        padding: 50px 0px;
+
+        .subscribeform-head {
+            h2 {
+                font-size: 48px;
+            }
+        }
+
+        .subscribeform-content {
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .form-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            form {
+                display: flex;
+                input {
+                    padding: 10px 10px;
+                    width: 60%;
+                }
+
+                button {
+                    padding: 10px 10px;
+                }
+            }
+        }
+    }
+}

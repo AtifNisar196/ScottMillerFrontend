@@ -1,0 +1,199 @@
+.pro-img img {
+    width: 100%;
+    max-width: 120px;
+}
+
+.MuiBox-root.css-ve9ogo {
+    padding: 14px 18px;
+}
+
+.pro-desc p::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.pro-desc p::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+.pro-desc p::-webkit-scrollbar-thumb {
+    background: #acacac;
+}
+
+/* Handle on hover */
+.pro-desc p::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}
+
+.pro-desc p {
+    overflow-x: auto;
+    height: 79px;
+    letter-spacing: 0.5px;
+    padding-right: 15px;
+    text-align: start;
+    font-size: 13px;
+    font-family: 'Poppins';
+    color: #000;
+}
+
+.cart-head h3 {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 1px solid #847872;
+    padding-bottom: 9px;
+    margin-bottom: 29px;
+    color: #847872;
+}
+
+.pro-name {
+    text-align: left;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.pro-item-inner {
+    position: relative;
+    margin-bottom: 36px;
+    background: #f2eff6;
+    padding: 13px 13px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
+    border-radius: 7px;
+    margin: 25px;
+}
+
+button.remove-btn {
+    padding: 0;
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 4px;
+    margin-top: -29px;
+}
+
+button.remove-btn i {
+    color: #fff;
+    background: #ff0808c2;
+    height: 35px;
+    border-radius: 34px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 23px;
+    transition: .3s;
+}
+
+button.remove-btn i:hover {
+    color: #fff;
+    background: #000;
+    height: 35px;
+    border-radius: 34px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: 23px;
+}
+
+.pro-qty span {
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.pro-qty {
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.pro-price span {
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.pro-price {
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.cart-total h4 {
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.checkout-button .btn-primary {
+    width: 100%;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #455e88;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.checkout-button .btn-primary:hover {
+    width: 100%;
+    height: 41px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #000;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    border-radius: 5px;
+    transform: scale(1.04);
+}
+.cart-wrapper{
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    .MuiBox-root.css-ve9ogo {
+        padding: 10px;
+    }
+
+    .cart-head h3 {
+        font-size: 20px;
+    }
+
+    .pro-name {
+        font-size: 18px;
+    }
+
+    .pro-item-inner {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .pro-desc p {
+        font-size: 12px;
+        height: 60px;
+    }
+
+    .pro-qty,
+    .pro-price {
+        font-size: 14px;
+    }
+
+    .cart-total h4 {
+        font-size: 20px;
+    }
+
+    .checkout-button .btn-primary {
+        font-size: 16px;
+        height: 36px;
+    }
+}

@@ -1,0 +1,114 @@
+.blogshome-wrapper {
+  padding: 10px 0px;
+  .blogshome-head {
+    h4 {
+      color: #000;
+      text-align: center;
+      font-family: "Creato Display";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px;
+    }
+    h2 {
+      color: #076350;
+      text-align: center;
+      font-family: "Fahkwang";
+      font-size: 90px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100px;
+    }
+    p {
+      color: #000;
+      text-align: center;
+      font-family: "Creato Display";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 179.4%; /* 32.292px */
+    }
+  }
+  .blog-card {
+    padding: 20px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+    .blog-card-head {
+      img {
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+    .blog-card-head {
+      h4 {
+        color: #11142d;
+        font-family: "Creato Display";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 20px 0px;
+      }
+    }
+    .blog-card-content {
+      p {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: "Creato Display";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .btn-wrap {
+        a {
+          color: #076350;
+          font-family: "Creato Display";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          transition: all 0.3s ease-in-out;
+          position: relative;
+          &::before {
+            content: "";
+            background: #076350;
+            height: 2px;
+            width: 0px;
+            position: absolute;
+            bottom: 15px;
+            left: 0;
+            transition: all 0.3s ease-in-out;
+          }
+          &:hover {
+            padding-left: 40px;
+            &::before {
+              width: 30px;
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+@media(max-width: 767px) {
+  .blogshome-wrapper {
+    padding: 30px 0;
+    .blogshome-head {
+      h4 {
+        font-size: 20px;
+        line-height: 30px;
+      }
+      h2 {
+        font-size: 48px;
+        line-height: 60px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+}
