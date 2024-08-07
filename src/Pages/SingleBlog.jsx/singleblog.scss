@@ -1,0 +1,67 @@
+section.single-blog {
+  padding: 100px 0;
+  margin-top: 150px;
+
+  .blogname {
+    font-family: "Creato Display";
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .singleblog-content {
+    .cart-img {
+      text-align: center;
+      margin-bottom: 30px;
+      img{
+        width: 350px;
+      }
+    }
+    .single-product {
+      h5 {
+        font-family: "Creato Display";
+        font-size: 36px;
+        font-weight: 600;
+      }
+      .description {
+        h3 {
+          font-family: "Poppins";
+          font-size: 25px;
+          font-weight: 600;
+          color: #000;
+          text-decoration: underline;
+        }
+        p {
+          color: black;
+          font-size: 16px;
+          font-family: "Poppins";
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 786px){
+    section.single-blog {
+        padding: 50px 0;
+        margin-top: 100px;
+        .blogname {
+        font-size: 30px;
+        }
+        .singleblog-content {
+        .single-product {
+            h5 {
+            font-size: 30px;
+            }
+            .description {
+            h3 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+            }
+        }
+        }
+    }
+}
