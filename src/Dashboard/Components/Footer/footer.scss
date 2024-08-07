@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Circular Std";
+    src: url("../../Assets/Fonts/CircularStd-Medium.woff") format("woff");
+}
+
+.footer .container .row {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background: #ddd9d9;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0px;
+
+    .footer-content-wrapper {
+        p {
+            color: #3c3c3c;
+            font-family: "Circular Std";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 450;
+            line-height: normal;
+            margin-bottom: 0px;
+        }
+    }
+
+    .footerlinkswrapper {
+        display: flex;
+        justify-content: center;
+
+        .footerlinks {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 0px;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: #3C3C3C;
+                    font-family: "Circular Std";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 450;
+                    line-height: normal;
+
+                    &:hover {
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+
+        .socialLinks {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 0px;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 786px){
+    .footer{
+        position: relative;
+        // bottom: 25px;
+        .footer-content-wrapper{
+            p{
+                font-size: 10px;
+            }
+        }
+        .footerlinkswrapper{
+            .footerlinks{
+                li{
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+            .socialLinks{
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

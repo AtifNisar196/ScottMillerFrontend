@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+.discover-news-wrapper {
+  margin-top: 30px !important;
+  .discover-news {
+    h4 {
+      font-family: "Circular Std";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #f2eff6;
+    }
+  }
+  .discover-news-box {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    .discover-news-box-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .discover-news-box-content {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        .discover-news-box-icon {
+          width: 60px;
+          height: 60px;
+          background-color: rgba(66, 137, 226, 0.05);
+          border-radius: 30px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          i {
+            color: #f2eff6;
+            font-size: 22px;
+          }
+        }
+        .discover-content-wrap {
+          h5 {
+            color: #000;
+            text-align: justify;
+            font-family: "Plus Jakarta Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px;
+            margin: 0px;
+            margin-bottom: 5px;
+          }
+          p {
+            color: #79909e;
+            text-align: justify;
+            font-family: "Circular Std";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 450;
+            line-height: normal;
+            letter-spacing: -0.28px;
+            margin: 0px;
+          }
+        }
+      }
+      .discover-news-box-arr {
+        i {
+          color: #000;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+    &:hover {
+      transition: all 0.3s ease;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(270deg, #51a0ff 0%, #4d6ecd 100%);
+      .discover-news-box-wrap {
+        .discover-news-box-content {
+          .discover-news-box-icon {
+            background-color: #fff;
+          }
+          .discover-content-wrap {
+            h5 {
+              color: #fff;
+            }
+            p {
+              color: #fff;
+            }
+          }
+        }
+        .discover-news-box-arr {
+          i {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+  }
+}

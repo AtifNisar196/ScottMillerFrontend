@@ -1,0 +1,30 @@
+.loginheader{
+    position: absolute;
+    width: 100vw;
+    padding: 20px;
+    z-index: 11;
+    .links-wrapper{
+        ul{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 0px;
+            li{
+                list-style: none;
+                color: #fff;
+               span{
+                margin-left: 5px;
+               }
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 500;
+                    &:hover{
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+    }
+}

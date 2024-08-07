@@ -1,0 +1,21 @@
+.dashpage-wrapper {
+  padding: 20px 50px;
+  background-color: #eee;
+  .dashpage-title {
+    font-family: "Circular Std";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    color: #000;
+  }
+
+}
+@media (max-width: 1000px) {
+  .dashpage-wrapper {
+    padding: 20px 20px;
+  }
+}
+
+

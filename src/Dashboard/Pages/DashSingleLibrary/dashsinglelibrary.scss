@@ -1,0 +1,105 @@
+.dashpage-wrapper {
+  .library-card {
+    .library-card-img {
+      img {
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+      }
+    }
+    .library-card-content {
+      padding: 10px;
+    }
+  }
+
+  .desc_lib {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .read-row {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    .ebook-head {
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 20px;
+        text-align: center;
+      }
+    }
+
+    .middlesecbook {
+      margin: 0 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      canvas {
+        margin-bottom: 20px;
+        box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+      }
+    }
+  }
+
+  @media (min-width: 576px) {
+    .desc_lib {
+      flex-direction: row;
+    }
+
+    .read-row {
+      flex-direction: row;
+      .middlesecbook {
+        margin: 0 0px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .desc_lib {
+      flex-direction: row;
+    }
+
+    .read-row {
+      flex-direction: row;
+      .middlesecbook {
+        margin: 0 0px;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .desc_lib {
+      flex-direction: row;
+    }
+
+    .read-row {
+      flex-direction: row;
+      .middlesecbook {
+        margin: 0 0px;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .desc_lib {
+      flex-direction: row;
+    }
+
+    .read-row {
+      flex-direction: row;
+      .middlesecbook {
+        margin: 0 0px;
+      }
+    }
+  }
+}
